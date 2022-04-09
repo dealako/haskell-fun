@@ -49,7 +49,7 @@ invoked a function!
 
 ## License
 
-Copyright 2020 David Deal
+Copyright 2022 David Deal
 
 This project’s source code is licensed under the MIT License. A copy of the license is available in LICENSE.
 
