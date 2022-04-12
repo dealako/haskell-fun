@@ -1,6 +1,6 @@
 module Main where
 
-import qualified MyLib (someFunc)
+import qualified MyLib (someFunc, fac)
 
 main :: IO ()
 main = do
@@ -10,3 +10,6 @@ main = do
 
   putStrLn "Hello, Haskell!"
   MyLib.someFunc
+
+  putStrLn "Factorial of 5 is:"
+  print (MyLib.fac 5)
